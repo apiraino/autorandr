@@ -71,7 +71,7 @@ This rule can probably be refined and YMMV, but _it works for me_ (:copyright: 2
 
 Test the syntax of your rule executing a dry-run on your graphic card path:
 ```
-udevadm test /devices/pci0000:00/0000:00:02.0/drm/card0 2>&1 | less
+udevadm test -a change /devices/pci0000:00/0000:00:02.0/drm/card0 | less
 ```
 You should see your new rule appearing and no errors.
 
