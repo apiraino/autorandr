@@ -63,7 +63,7 @@ Write down the `DEVPATH` and `DEVNAME` from the previous output, that's where UD
 $ udevadm info -n /dev/dri/card0
 $ udevadm info -q path -n /dev/dri/card0
 ```
-Create a new UDEV rule `/etc/udev/95-monitor-switch.rules`, replace _user_ with your Linux user:
+Create a new UDEV rule `/etc/udev/rules.d/95-monitor-switch.rules`, replace _user_ with your Linux user:
 ```
 ACTION=="change", KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/user/.Xauthority", RUN+="/path/to/autorandr.sh"
 ```
