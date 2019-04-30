@@ -1,7 +1,7 @@
 ## Automatic monitor switch when an external source is plugged
 
 
-*** This guide applies for Linux using the LXDE windows manager ***
+This guide applies to any Linux window manager that does not provide an automatic monitor switch tool. I've tested it with [LXDE](https://lxde.org) and [i3wm](https://i3wm.org). However, you don't need this setup with any Ubuntu or derivative.
 
 
 ### A brief overview
