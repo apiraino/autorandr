@@ -1,3 +1,6 @@
+# This project is now archived and merged with my dotfiles: https://gitlab.com/apiraino/dotfiles/
+
+
 ## Automatic monitor switch when an external source is plugged
 
 
